@@ -2,7 +2,7 @@ from sinara.step import Step
 from sinara.step import StepSafeguard as sg
 from sinara.step import StepReport as sr
 
-#sg.git_reset()
+sg.git_reset()
 
 try:
     step = Step(step_params_file_globs="params/step_params.json",
